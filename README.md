@@ -10,10 +10,10 @@ Below you can find which authentication processes are implemented, and what is p
 - Passkeys ❌
 
 # Session Auth
-I have implemented session auth using ``tower_http`` by creating a custom function. <br />
+I have implemented session auth using ``tower_http`` by creating a custom middleware function. <br />
 On login/register, the server generates and writes a session id to the database, and appends it to the client's cookies. <br />
 
-By default, the session expires in 2 days, and it gets deleted from the database when a user tries to access the protected route. <br />
+By default, the session expires in 2 days, and it gets deleted from the database when a user tries to access the protected route after expiration. <br />
 
 In an actual usecase, it is advised to refresh and generate a new session everytime the user accesses a protected route, so that the user only gets logged out when they are inactive.
 
