@@ -2,8 +2,7 @@
 A collection of authentication processes for Axum.
 
 # Todo
-Below you can find which authentication processes are implemented, and what <br />
-is planned for the future.
+Below you can find which authentication processes are implemented, and what is planned for the future.
 
 - Session Auth ✔
 - JWT Auth ❌
