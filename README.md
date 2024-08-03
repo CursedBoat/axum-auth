@@ -1,13 +1,9 @@
 # Axum Auth
 A collection of authentication processes for Axum.
 
----
-
 # Todo
 Below you can find which authentication processes are implemented, and what <br />
 is planned for the future.
-
-### Only the very baseline authentication features will be provided. For practical use, please modify the code and add your own features.
 
 - Session Auth ✔
 - JWT Auth ❌
